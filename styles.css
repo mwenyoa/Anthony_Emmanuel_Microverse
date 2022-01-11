@@ -1,0 +1,23 @@
+.row{
+  
+    margin-top:100px;
+    background-color: blueviolet;
+}
+
+body{
+    background:blueviolet;
+}
+
+#center{
+    text-align: center;;
+}
+.button{
+    width:100%;
+}
+
+html{
+    background-color: blueviolet;
+}
+.card{
+    background-color: blueviolet;
+}

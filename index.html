@@ -3,21 +3,73 @@
 <head>
   <meta charset="UTF-8">
   <title>Anthony And Emmanuel Collaborative Work</title>
-</head>
-<body>
-  <h1 id="title"> Anthony Emmanuel Microverse Survey Form</h1>
-<p id="description">Thank you for taking the time to help us improve the platform</p>
-<form id="survey-form">
-  <label id="name-label" for="name">Name</label>
-  <input type="text" id="name" placeholder="name" required>
-  <label id="email-label" for="email">Email</label>
-  <input type="email" id="email" placeholder="Email" required>
-  <label id="number-label" for="number">Name</label>
-<input type="number" id="number" placeholder="number" min="0" max="3">
-<select id="">
-  
-</select>
-</form>
+  <link href="styles.css" rel="stylesheet" type="text\css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+   rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+  </head>
+<body style="background-color: blueviolet;">
+
+
+  <div class="container" style="background-color: blueviolet;">
+
+    <div class="row ">
+
+     <div class="card">
+
+       <div class="card-body"><br>
+
+        <h1 id="title" id="center"> Anthony Emmanuel Microverse Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+        
+        <form id="survey-form">
+          <label id="name-label" for="name">Name</label>
+          <input type="text"  class="form-control"id="name" placeholder="name" required><br>
+          <label id="email-label" for="email">Email</label><br>
+          <input type="email"  class="form-control"id="email" placeholder="Email" required><br>
+          <label id="number-label"  for="number">Name</label>
+        <input type="number" id="number" class="form-control" placeholder="number" min="0" max="3"><br>
+        <select id="dropdown" class="form-control  form-select">
+          <option value="Student">Student</option><br>
+          <option value="fulltime Job">Full time job</option>
+          <option value="other">Other</option>
+    
+        </select><br>
+        <label>Would you recommend freeCodeCamp to a friend?</label>
+        <input type="radio" name="choice" value="Definately">
+        <label for="Definitely">Definitely</label><br>
+        
+        <input type="radio" name="choice" value="Maybe">
+        <label for="Maybe">Maybe</label><br>
+        
+        <input type="radio" name="choice" value="Not sure">
+        <label for="Not sure"></label> Not sure</label><br><br>
+        
+        <div>
+          <label> What would you like to see improved? (Check all that apply)</label>
+         <input type="checkbox" id="ck"  value="yes" name="checked">
+         <label for="chk1">Front-end Projects</label>
+
+         <input type="checkbox" id="ck1"  value="yes" name="chk1">
+         <label for="chk2"> Data Visualization</label>
+
+         <input type="checkbox" id="sck2"  value="yes" name="chk2">
+         <label for="chk3"> Challenges</label>
+        
+         <input type="checkbox" id="ck2" value="yes" name="chk3">
+         <label for="chk3">Challenges</label>
+</div>
+        
+
+        <label label="">Any comments or suggestions?</label>
+        <textarea rows="2" col="30" class="form-control"></textarea>
+        <br>
+        <button type="submit" id="submit" class="form-control btn btn-success">Submit</Sub></button>
+        </form>
+       </div>
+     </div>
+    </div>
+  </div>
   <!-- partial:index.partial.html -->
 <!-- 
 
