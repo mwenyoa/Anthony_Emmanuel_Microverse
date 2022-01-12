@@ -13,6 +13,7 @@ body{
 }
 .button{
     width:100%;
+    background-color:rgba(12, 155, 83, 0.467);
 }
 
 html{
@@ -20,4 +21,8 @@ html{
 }
 .card{
     background-color: blueviolet;
+}
+h1{
+text-align: justify;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
